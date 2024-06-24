@@ -1,4 +1,5 @@
-node_modules
-paotang-core-sit-d50437475f5b.json
+*/node_modules
+*/storage/paotang-core-sit-d50437475f5b.json
 .idea/*
-package-lock.json
+*/.idea
+nodejs/package-lock.json

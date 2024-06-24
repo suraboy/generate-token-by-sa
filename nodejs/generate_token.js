@@ -3,7 +3,7 @@ const path = require('path');
 
 async function generateToken() {
     try {
-        const keyFilePath = path.join(__dirname, './paotang-core-sit-d50437475f5b.json'); // Update this path
+        const keyFilePath = path.join(__dirname, './storage/paotang-core-sit-d50437475f5b.json'); // Update this path
         const targetAudience = 'https://paotang-telco-check-6ti7spcsya-as.a.run.app'; // Update this URL
 
         const auth = new GoogleAuth({
